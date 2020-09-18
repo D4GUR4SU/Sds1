@@ -1,9 +1,18 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import Home from './pages/Home';
+import Pagination from './pages/Pagination';
+import Records from './pages/Records';
 
 function App() {
   return (
-   <h1>Hello semana DevSuperior!</h1>
+    <div>
+      <Header />
+      <Home />
+      <Pagination />
+      <Records />
+    </div>
   );
 }
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Records = () => (
     <div>
-        records
+        <h1>Records</h1>
     </div>
 );
 
